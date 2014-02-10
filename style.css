@@ -1,10 +1,10 @@
 h1 {
-    background-color: #990000;
+    background-color: #000045;
     margin: 0;
     padding-top: 5px;
     padding-left: 20px;
     padding-bottom: 5px;
-    color: #000;
+    color: #990000;
     text-align: center;
     font-family: verdana, arial, sans-serif;
 }
@@ -14,8 +14,9 @@ h2 {
 #nav {
     float: left;
     width: 160px;
+    height: 300px;
     padding: 20px 5px 5px 20px;
-    background-color: #990000;
+    background-color: #000045;
     font-weight: bold;
     text-align: center;
 }
@@ -23,7 +24,7 @@ h2 {
     text-decoration: none;
 }
 #nav a:link {
-    color: #000033;
+    color: #000000;
 }
 #nav a:visited {
     color: #344873;
@@ -41,15 +42,15 @@ h2 {
     text-align: center;
     padding: 10px;
     clear: both;
-    background-color: #000;
+    background-color: #fafafa;
 }
 #content {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #000;
+    background-color: #fafafa;
     margin-left: 170px;
     padding-top: 1px;
-     min-height:500px;
+    min-height:500px;
 }
 .float {
     float: left;
@@ -57,18 +58,19 @@ h2 {
 }
 
 body {
-    color: #900;
-    background-color: #ffffff;
+    color: #000;
+    background-color: #eee;
 }
 img {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #000;
 }
 #wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: #000;
+    background-color: #fafafa;
     min-width: 960px;
     box-shadow: 5px 5px 5px #666;
 }
