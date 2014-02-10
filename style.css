@@ -1,0 +1,142 @@
+h1 {
+    background-color: #990000;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #000;
+    text-align: center;
+    font-family: verdana, arial, sans-serif;
+}
+h2 {
+    padding-left: 20px;
+}
+#nav {
+    float: left;
+    width: 160px;
+    padding: 20px 5px 5px 20px;
+    background-color: #990000;
+    font-weight: bold;
+    text-align: center;
+}
+#nav a {
+    text-decoration: none;
+}
+#nav a:link {
+    color: #000033;
+}
+#nav a:visited {
+    color: #344873;
+}
+#nav a:hover {
+    color: #ffffff;
+}
+#nav ul {
+    margin: 0;
+    padding-left: 0;
+}
+#footer {
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    background-color: #000;
+}
+#content {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    margin-left: 170px;
+    padding-top: 1px;
+     min-height:500px;
+}
+.float {
+    float: left;
+    padding-right: 20px;
+}
+
+body {
+    color: #900;
+    background-color: #ffffff;
+}
+img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #000;
+    min-width: 960px;
+    box-shadow: 5px 5px 5px #666;
+}
+table {
+    margin: auto;
+    border: 1px solid #cc0000;
+    width: 600px;
+    border-spacing: 5px;
+    margin-top: 10px;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #cc0000;
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+legend {
+    font-family: georgia, serif;
+    font-weight: bold;
+    color: #900;
+}
+label {
+    font-family: verdana, arial, sans-serif;
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+}
+#mysubmit {
+    margin-left: 130px;
+}
+fieldset {    
+    border: 2px ridge #fff;
+    padding: 10px;
+    margin: 10px;
+}
+#reason {
+    margin-left: 130px;
+}
+
+#gallery li {
+    border: 1px solid #fff;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+#gallery img {
+    border: none;
+    height: 150px;
+    padding: 5px;
+    width: 150px;
+}
+
+#gallery a {
+    display: block;
+    height: 160px;
+    padding: 0;
+    text-decoration: none;
+    width: 160px;
+}
+
+#gallery a:hover {
+    background-color: #f00;
+}
