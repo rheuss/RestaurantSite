@@ -57,6 +57,10 @@ h2 {
     padding-right: 20px;
 }
 
+.float2{
+    float: right;
+}
+
 body {
     color: #000;
     background-color: #eee;
